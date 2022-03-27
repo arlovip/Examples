@@ -283,7 +283,7 @@ static const BOOL popGestureEnabled = NO;
 
 ## 附录
 
-- `Demo`地址：[CLNavigationPopGesture-Example](https://github.com/lchenfox/CLNavigationPopGesture-Example.git)。
+- `Demo`地址：[CLNavigationPopGesture-Example](https://github.com/lchenfox/Examples/tree/main/CLNavigationPopGesture-Example01)。
 - [个人博客](https://www.clcoder.com/)
 - [个人简书](https://www.jianshu.com/u/5112193ea52d)
 
