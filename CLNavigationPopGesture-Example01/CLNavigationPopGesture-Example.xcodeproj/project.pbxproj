@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B56FCE27EF4015008D96BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B56FCD27EF4015008D96BF /* AppDelegate.m */; };
+		13B56FD927EF4016008D96BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B56FD827EF4016008D96BF /* Assets.xcassets */; };
+		13B56FDC27EF4016008D96BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B56FDA27EF4016008D96BF /* LaunchScreen.storyboard */; };
+		13B56FDF27EF4016008D96BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B56FDE27EF4016008D96BF /* main.m */; };
+		13B56FE927EF4016008D96BF /* CLNavigationPopGesture_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B56FE827EF4016008D96BF /* CLNavigationPopGesture_ExampleTests.m */; };
+		13B56FF327EF4016008D96BF /* CLNavigationPopGesture_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B56FF227EF4016008D96BF /* CLNavigationPopGesture_ExampleUITests.m */; };
+		13B56FF527EF4016008D96BF /* CLNavigationPopGesture_ExampleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B56FF427EF4016008D96BF /* CLNavigationPopGesture_ExampleUITestsLaunchTests.m */; };
+		13B5700427EF40C2008D96BF /* CLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B5700327EF40C2008D96BF /* CLBaseViewController.m */; };
+		13B5700727EF40D7008D96BF /* CLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B5700627EF40D7008D96BF /* CLBaseNavigationController.m */; };
+		13B5700B27EF4132008D96BF /* UIViewController+CLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B5700A27EF4132008D96BF /* UIViewController+CLTransition.m */; };
+		13B5700E27EF4209008D96BF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B5700D27EF4209008D96BF /* HomeViewController.m */; };
+		13B5701127EF4259008D96BF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B5701027EF4259008D96BF /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13B56FE527EF4016008D96BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B56FC127EF4015008D96BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B56FC827EF4015008D96BF;
+			remoteInfo = "CLNavigationPopGesture-Example";
+		};
+		13B56FEF27EF4016008D96BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B56FC127EF4015008D96BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B56FC827EF4015008D96BF;
+			remoteInfo = "CLNavigationPopGesture-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B56FC927EF4015008D96BF /* CLNavigationPopGesture-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CLNavigationPopGesture-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B56FCC27EF4015008D96BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13B56FCD27EF4015008D96BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13B56FD827EF4016008D96BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13B56FDB27EF4016008D96BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13B56FDD27EF4016008D96BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B56FDE27EF4016008D96BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13B56FE427EF4016008D96BF /* CLNavigationPopGesture-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CLNavigationPopGesture-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B56FE827EF4016008D96BF /* CLNavigationPopGesture_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNavigationPopGesture_ExampleTests.m; sourceTree = "<group>"; };
+		13B56FEE27EF4016008D96BF /* CLNavigationPopGesture-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CLNavigationPopGesture-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B56FF227EF4016008D96BF /* CLNavigationPopGesture_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNavigationPopGesture_ExampleUITests.m; sourceTree = "<group>"; };
+		13B56FF427EF4016008D96BF /* CLNavigationPopGesture_ExampleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNavigationPopGesture_ExampleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		13B5700227EF40C2008D96BF /* CLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBaseViewController.h; sourceTree = "<group>"; };
+		13B5700327EF40C2008D96BF /* CLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBaseViewController.m; sourceTree = "<group>"; };
+		13B5700527EF40D7008D96BF /* CLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLBaseNavigationController.h; sourceTree = "<group>"; };
+		13B5700627EF40D7008D96BF /* CLBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLBaseNavigationController.m; sourceTree = "<group>"; };
+		13B5700927EF4132008D96BF /* UIViewController+CLTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLTransition.h"; sourceTree = "<group>"; };
+		13B5700A27EF4132008D96BF /* UIViewController+CLTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLTransition.m"; sourceTree = "<group>"; };
+		13B5700C27EF4209008D96BF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		13B5700D27EF4209008D96BF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		13B5700F27EF4259008D96BF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		13B5701027EF4259008D96BF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B56FC627EF4015008D96BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B56FE127EF4016008D96BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B56FEB27EF4016008D96BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B56FC027EF4015008D96BF = {
+			isa = PBXGroup;
+			children = (
+				13B56FCB27EF4015008D96BF /* CLNavigationPopGesture-Example */,
+				13B56FE727EF4016008D96BF /* CLNavigationPopGesture-ExampleTests */,
+				13B56FF127EF4016008D96BF /* CLNavigationPopGesture-ExampleUITests */,
+				13B56FCA27EF4015008D96BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13B56FCA27EF4015008D96BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B56FC927EF4015008D96BF /* CLNavigationPopGesture-Example.app */,
+				13B56FE427EF4016008D96BF /* CLNavigationPopGesture-ExampleTests.xctest */,
+				13B56FEE27EF4016008D96BF /* CLNavigationPopGesture-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B56FCB27EF4015008D96BF /* CLNavigationPopGesture-Example */ = {
+			isa = PBXGroup;
+			children = (
+				13B5700827EF4104008D96BF /* Category */,
+				13B5700127EF40AB008D96BF /* Base */,
+				13B56FCC27EF4015008D96BF /* AppDelegate.h */,
+				13B56FCD27EF4015008D96BF /* AppDelegate.m */,
+				13B5700C27EF4209008D96BF /* HomeViewController.h */,
+				13B5700D27EF4209008D96BF /* HomeViewController.m */,
+				13B5700F27EF4259008D96BF /* SecondViewController.h */,
+				13B5701027EF4259008D96BF /* SecondViewController.m */,
+				13B56FD827EF4016008D96BF /* Assets.xcassets */,
+				13B56FDA27EF4016008D96BF /* LaunchScreen.storyboard */,
+				13B56FDD27EF4016008D96BF /* Info.plist */,
+				13B56FDE27EF4016008D96BF /* main.m */,
+			);
+			path = "CLNavigationPopGesture-Example";
+			sourceTree = "<group>";
+		};
+		13B56FE727EF4016008D96BF /* CLNavigationPopGesture-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				13B56FE827EF4016008D96BF /* CLNavigationPopGesture_ExampleTests.m */,
+			);
+			path = "CLNavigationPopGesture-ExampleTests";
+			sourceTree = "<group>";
+		};
+		13B56FF127EF4016008D96BF /* CLNavigationPopGesture-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13B56FF227EF4016008D96BF /* CLNavigationPopGesture_ExampleUITests.m */,
+				13B56FF427EF4016008D96BF /* CLNavigationPopGesture_ExampleUITestsLaunchTests.m */,
+			);
+			path = "CLNavigationPopGesture-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		13B5700127EF40AB008D96BF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				13B5700227EF40C2008D96BF /* CLBaseViewController.h */,
+				13B5700327EF40C2008D96BF /* CLBaseViewController.m */,
+				13B5700527EF40D7008D96BF /* CLBaseNavigationController.h */,
+				13B5700627EF40D7008D96BF /* CLBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		13B5700827EF4104008D96BF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				13B5700927EF4132008D96BF /* UIViewController+CLTransition.h */,
+				13B5700A27EF4132008D96BF /* UIViewController+CLTransition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B56FC827EF4015008D96BF /* CLNavigationPopGesture-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B56FF827EF4016008D96BF /* Build configuration list for PBXNativeTarget "CLNavigationPopGesture-Example" */;
+			buildPhases = (
+				13B56FC527EF4015008D96BF /* Sources */,
+				13B56FC627EF4015008D96BF /* Frameworks */,
+				13B56FC727EF4015008D96BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CLNavigationPopGesture-Example";
+			productName = "CLNavigationPopGesture-Example";
+			productReference = 13B56FC927EF4015008D96BF /* CLNavigationPopGesture-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B56FE327EF4016008D96BF /* CLNavigationPopGesture-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B56FFB27EF4016008D96BF /* Build configuration list for PBXNativeTarget "CLNavigationPopGesture-ExampleTests" */;
+			buildPhases = (
+				13B56FE027EF4016008D96BF /* Sources */,
+				13B56FE127EF4016008D96BF /* Frameworks */,
+				13B56FE227EF4016008D96BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B56FE627EF4016008D96BF /* PBXTargetDependency */,
+			);
+			name = "CLNavigationPopGesture-ExampleTests";
+			productName = "CLNavigationPopGesture-ExampleTests";
+			productReference = 13B56FE427EF4016008D96BF /* CLNavigationPopGesture-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B56FED27EF4016008D96BF /* CLNavigationPopGesture-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B56FFE27EF4016008D96BF /* Build configuration list for PBXNativeTarget "CLNavigationPopGesture-ExampleUITests" */;
+			buildPhases = (
+				13B56FEA27EF4016008D96BF /* Sources */,
+				13B56FEB27EF4016008D96BF /* Frameworks */,
+				13B56FEC27EF4016008D96BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B56FF027EF4016008D96BF /* PBXTargetDependency */,
+			);
+			name = "CLNavigationPopGesture-ExampleUITests";
+			productName = "CLNavigationPopGesture-ExampleUITests";
+			productReference = 13B56FEE27EF4016008D96BF /* CLNavigationPopGesture-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B56FC127EF4015008D96BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					13B56FC827EF4015008D96BF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					13B56FE327EF4016008D96BF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 13B56FC827EF4015008D96BF;
+					};
+					13B56FED27EF4016008D96BF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 13B56FC827EF4015008D96BF;
+					};
+				};
+			};
+			buildConfigurationList = 13B56FC427EF4015008D96BF /* Build configuration list for PBXProject "CLNavigationPopGesture-Example" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B56FC027EF4015008D96BF;
+			productRefGroup = 13B56FCA27EF4015008D96BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B56FC827EF4015008D96BF /* CLNavigationPopGesture-Example */,
+				13B56FE327EF4016008D96BF /* CLNavigationPopGesture-ExampleTests */,
+				13B56FED27EF4016008D96BF /* CLNavigationPopGesture-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B56FC727EF4015008D96BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B56FDC27EF4016008D96BF /* LaunchScreen.storyboard in Resources */,
+				13B56FD927EF4016008D96BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B56FE227EF4016008D96BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B56FEC27EF4016008D96BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B56FC527EF4015008D96BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B56FCE27EF4015008D96BF /* AppDelegate.m in Sources */,
+				13B5700427EF40C2008D96BF /* CLBaseViewController.m in Sources */,
+				13B56FDF27EF4016008D96BF /* main.m in Sources */,
+				13B5701127EF4259008D96BF /* SecondViewController.m in Sources */,
+				13B5700B27EF4132008D96BF /* UIViewController+CLTransition.m in Sources */,
+				13B5700E27EF4209008D96BF /* HomeViewController.m in Sources */,
+				13B5700727EF40D7008D96BF /* CLBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B56FE027EF4016008D96BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B56FE927EF4016008D96BF /* CLNavigationPopGesture_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B56FEA27EF4016008D96BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B56FF527EF4016008D96BF /* CLNavigationPopGesture_ExampleUITestsLaunchTests.m in Sources */,
+				13B56FF327EF4016008D96BF /* CLNavigationPopGesture_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13B56FE627EF4016008D96BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B56FC827EF4015008D96BF /* CLNavigationPopGesture-Example */;
+			targetProxy = 13B56FE527EF4016008D96BF /* PBXContainerItemProxy */;
+		};
+		13B56FF027EF4016008D96BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B56FC827EF4015008D96BF /* CLNavigationPopGesture-Example */;
+			targetProxy = 13B56FEF27EF4016008D96BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B56FDA27EF4016008D96BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B56FDB27EF4016008D96BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B56FF627EF4016008D96BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13B56FF727EF4016008D96BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13B56FF927EF4016008D96BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CLNavigationPopGesture-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.CLNavigationPopGesture-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13B56FFA27EF4016008D96BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CLNavigationPopGesture-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.CLNavigationPopGesture-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		13B56FFC27EF4016008D96BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.CLNavigationPopGesture-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLNavigationPopGesture-Example.app/CLNavigationPopGesture-Example";
+			};
+			name = Debug;
+		};
+		13B56FFD27EF4016008D96BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.CLNavigationPopGesture-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLNavigationPopGesture-Example.app/CLNavigationPopGesture-Example";
+			};
+			name = Release;
+		};
+		13B56FFF27EF4016008D96BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.CLNavigationPopGesture-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CLNavigationPopGesture-Example";
+			};
+			name = Debug;
+		};
+		13B5700027EF4016008D96BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.CLNavigationPopGesture-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CLNavigationPopGesture-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B56FC427EF4015008D96BF /* Build configuration list for PBXProject "CLNavigationPopGesture-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B56FF627EF4016008D96BF /* Debug */,
+				13B56FF727EF4016008D96BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B56FF827EF4016008D96BF /* Build configuration list for PBXNativeTarget "CLNavigationPopGesture-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B56FF927EF4016008D96BF /* Debug */,
+				13B56FFA27EF4016008D96BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B56FFB27EF4016008D96BF /* Build configuration list for PBXNativeTarget "CLNavigationPopGesture-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B56FFC27EF4016008D96BF /* Debug */,
+				13B56FFD27EF4016008D96BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B56FFE27EF4016008D96BF /* Build configuration list for PBXNativeTarget "CLNavigationPopGesture-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B56FFF27EF4016008D96BF /* Debug */,
+				13B5700027EF4016008D96BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B56FC127EF4015008D96BF /* Project object */;
+}
