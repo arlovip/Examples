@@ -146,8 +146,15 @@ static const BOOL popGestureEnabled = YES;
 
 #pragma mark - Convenience methods
 
-- (NSString *)vcKeyFromVC:(UIViewController *)viewController {
+- (nullable NSString *)vcKeyFromVC:(UIViewController *)viewController {
     return NSStringFromClass([viewController class]);
+}
+
+- (void)setSpecifiedViewControllerInteractivePopGestureEnabled:(BOOL)enabled {
+    NSString *vcKey = [self vcKeyFromVC:self.topViewController];
+    if (vcKey) {
+        vcsDic[vcKey] = @(enabled);
+    }
 }
 
 @end

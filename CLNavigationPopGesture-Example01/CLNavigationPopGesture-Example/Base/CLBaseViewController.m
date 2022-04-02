@@ -50,4 +50,17 @@
     self.navigationItem.hidesBackButton = YES;
 }
 
+- (void)setCl_interactivePopGestureEnabled:(BOOL)cl_interactivePopGestureEnabled {
+    _cl_interactivePopGestureEnabled = cl_interactivePopGestureEnabled;
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+#pragma clang diagnostic push
+    SEL sel = @selector(setSpecifiedViewControllerInteractivePopGestureEnabled:);
+#pragma clang diagnostic pop
+    if (self.navigationController && [self.navigationController respondsToSelector:sel]) {
+        IMP imp = [self.navigationController methodForSelector:sel];
+        void(*func)(id, SEL, BOOL) = (void *)imp;
+        func(self.navigationController, sel, cl_interactivePopGestureEnabled);
+    }
+}
+
 @end

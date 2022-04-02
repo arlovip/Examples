@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// Hide left bar button on top-left corner of navigation bar.
 @property (nonatomic, assign) BOOL hidesBackButton;
 
+/// Whether to enable the interactive pop gesture or not.
+@property (nonatomic, assign) BOOL cl_interactivePopGestureEnabled;
+
 /// Left bar back button event. Override this method if you'd like to do something for your needs.
 - (void)cl_leftBarButtonClicked;
 
